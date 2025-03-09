@@ -6,10 +6,10 @@ import os
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 # from pprint import pprint
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 # 環境変数の読み込み
-load_dotenv()
+# load_dotenv()
 
 # Notion API設定
 NOTION_API_KEY = os.getenv("NOTION_API_KEY")
